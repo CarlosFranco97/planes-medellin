@@ -1,15 +1,23 @@
+import ComunaTrece from "./components/ComunaTrece";
+import GraffitiTour from "./components/GraffitiTour";
 import HaciendaNapoles from "./components/HaciendaNapoles";
 import Header from "./components/Header";
 import Home from "./components/Home";
+import ReservaAhora from "./components/ReservaAhora";
+import SantaFeAntioquia from "./components/SantaFeAntioquia";
 import TourGuatape from "./components/TourGuatape";
 
 const PlanesMedellin = () => {
     return (
-        <div className="bg-[url(../src/assets/piedra-peñol.png)] bg-no-repeat bg-contain object-contain">
+        <div className="bg-[url(../src/assets/piedra-peñol.png)] bg-no-repeat bg-contain w-full h-auto">
             <Header />
             <Home />
+            <ReservaAhora />
             <TourGuatape />
             <HaciendaNapoles />
+            <SantaFeAntioquia />
+            <GraffitiTour />
+            <ComunaTrece />
         </div> 
     )
 }
