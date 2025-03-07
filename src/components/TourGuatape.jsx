@@ -1,6 +1,6 @@
 const TourGuatape = () => {
     return (
-        <div className="bg-[url(../src/assets/guatape.png)] bg-no-repeat bg-cover h-180 pt-20 flex flex-col justify-between">
+        <div className="bg-[url(../src/assets/guatape.png)] bg-no-repeat bg-cover h-180 pt-20 w-full flex flex-col justify-between">
             <h2 className="bg-white h-20 text-5xl flex justify-center items-center text-[#0080B9] font-black">
                 TOUR GUATAPÉ
             </h2>

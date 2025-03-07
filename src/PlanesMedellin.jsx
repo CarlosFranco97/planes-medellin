@@ -9,7 +9,7 @@ import TourGuatape from "./components/TourGuatape";
 
 const PlanesMedellin = () => {
     return (
-        <div className="bg-[url(../src/assets/piedra-peñol.png)] bg-no-repeat bg-contain w-full h-auto">
+        <div className="bg-[url(../src/assets/piedra-peñol.png)] bg-no-repeat bg-contain w-full h-full flex flex-col items-center">
             <Header />
             <Home />
             <ReservaAhora />
