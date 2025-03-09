@@ -3,6 +3,7 @@ import GraffitiTour from "./components/GraffitiTour";
 import HaciendaNapoles from "./components/HaciendaNapoles";
 import Header from "./components/Header";
 import Home from "./components/Home";
+import MenuLateral from "./components/MenuLateral";
 import ReservaAhora from "./components/ReservaAhora";
 import SantaFeAntioquia from "./components/SantaFeAntioquia";
 import TourGuatape from "./components/TourGuatape";
