@@ -1,7 +1,7 @@
 const MenuLateral = ({menuAbierto}) => {
     console.log(menuAbierto)
     return (
-            <div className={`w-full lg:w-[40%] h-screen bg-white flex flex-col justify-around items-center opacity-90 text-4xl font-black text-center absolute top-0 transition-transform duration-900 ease-in-out ${(!menuAbierto) ? "translate-x-200" : "-transalate-x-full" }`}>
+            <div className={`flex flex-col justify-around items-center w-full h-screen bg-white opacity-90 text-4xl font-black text-center absolute top-0 sm:text-3xl lg:w-[40%] xl:text-7xl transition-transform duration-900 ease-in-out   ${(!menuAbierto) ? "hidden" : "block" }`}>
             <a href="">
                 Tour guatapé
             </a>

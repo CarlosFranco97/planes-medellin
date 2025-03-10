@@ -2,7 +2,7 @@ import { useState } from "react";
 import BotonHamburguesa from "./BotonHamburguesa";
 import MenuLateral from "./MenuLateral";
 
-const Header = () => {
+const Encabezado = () => {
 
     const [menuAbierto, setMenuAbierto] = useState(false);
 
@@ -11,14 +11,12 @@ const Header = () => {
     }
     
     return (
-        <header className='w-full h-auto flex justify-end items-center h-[40px]
-        md:h-[px] lg:h-[60px]'>
-            <BotonHamburguesa alternarMenu={alternarMenu} />
+        <header className='flex justify-end items-center w-full h-25 xl:h-40'>
+            <BotonHamburguesa alternarMenu={alternarMenu} menuAbierto={menuAbierto}/>
 
             <MenuLateral menuAbierto={menuAbierto} />
-
         </header>
     )
 }
 
-export default Header;
+export default Encabezado;
