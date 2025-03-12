@@ -1,12 +1,19 @@
 const Home = () => {
     return (
-        <section className="w-full flex flex-col justify-start items-center h-80 sm:h-auto lg:h-auto lg:justify-evenly">
-            <h1 className="text-yellow-300 text-center w-full font-extrabold text-5xl mt-5 sm:text-8xl lg:text-9xl lg:mt-0 xl:text-[15rem] 2xl:text-[18rem]">
-                ¿NO SABES QUE HACER EN MEDELLÍN?
-            </h1>
-            <button className="text-white bg-[#0080B9]/50 w-80 rounded-2xl text-xl cursor-pointer h-15 hover:bg-[#0080B9]/30 transition-all duration-900 sm:h-20 sm:w-120 sm:text-3xl font-black cursor-pointer mt-10 lg:text-4xl lg:w-150 lg:mt-30 lg:h-30 xl:text-[4rem] xl:w-260 xl:h-50">
-            CONOCE LOS PLANES AQUÍ
-        </button>
+        <section className="flex justify-center w-full h-[400px] lg:h-[900px] sm:min-h-screen xl:min-h-screen">
+
+            <div className="flex flex-col justify-start gap-20 items-center p-4 max-w-full min-h-screen lg:flex lg:flex-col lg:justify-evenly">
+
+                <h1 className="text-yellow-300 text-center max-w-full font-extrabold text-5xl sm:text-8xl lg:text-9xl xl:text-[15rem] 2xl:text-[28rem]">
+                    ¿NO SABES QUE HACER EN MEDELLÍN?
+                </h1>
+
+                <button className="bg-[#0080B9]/50 text-white w-[90%] h-20 rounded-2xl text-2xl cursor-pointer font-black hover:bg-[#0080B9]/30 shadow-2xl transition-all duration-900 sm:h-20 sm:w-[85%] sm:text-3xl lg:text-4xl lg:w-[60%] lg:h-25 xl:text-[4rem] xl:w-[800px] xl:h-50 2xl:w-[35%] 2xl:h-80 2xl:text-[6rem]">
+                     CONOCE LOS PLANES AQUÍ
+                </button>   
+
+            </div>
+
         </section>
     )
 }

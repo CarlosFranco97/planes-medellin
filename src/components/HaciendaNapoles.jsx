@@ -1,15 +1,24 @@
 const HaciendaNapoles = () => {
     return (
-        <div className="flex flex-col justify-evenly w-full h-[800px] lg:h-600">
-            <div className="bg-[url(../src/assets/hacienda-napoles.png)] h-[400px] lg:h-600 bg-no-repeat bg-cover py-6 relative">
-                <h2 className="flex justify-start items-center text-5xl lg:text-8xl font-black text-white px-4">HACIENDA NAPOLÉS</h2>
+        <section className="bg-[url(../src/assets/avion-napoles.png)] bg-no-repeat bg-center bg-cover w-full min-h-screen">
+
+            <div className="flex flex-col justify-between w-full h-screen">
+
+                <h2 className="text-5xl font-black text-white m-5 lg:text-8xl xl:text-[15rem] xl:m-15">
+                    HACIENDA NAPOLÉS
+                </h2>
+
+                <p className="text-white">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni dolor dolorum dicta asperiores vero, eius ea aperiam quo ratione adipisci quisquam voluptatem optio quae reprehenderit non fuga explicabo natus doloremque ipsam! Eius odio alias incidunt molestiae itaque, ab nihil vitae distinctio, at laborum minus doloremque eveniet. Nulla maiores illo sed ipsam ullam dolor provident? Amet hic ut explicabo ullam reiciendis consectetur quis reprehenderit voluptate quisquam similique voluptatem itaque, maxime sequi animi temporibus quasi! Provident pariatur repellat non maiores tempore qui vel id saepe ab recusandae quia corrupti temporibus, omnis quam soluta iste dolores possimus? Aliquam odit nisi optio corporis velit dolor! A quaerat, delectus totam, laborum nobis numquam odio quidem nesciunt officiis repellendus, voluptatum hic iste. Veritatis unde ab voluptate hic culpa est, architecto quasi odio provident deleniti rem maxime incidunt quaerat obcaecati. Laboriosam sequi, aliquid pariatur illo unde corrupti dicta soluta, omnis, aspernatur dolorem ipsum libero delectus fuga alias maiores quaerat saepe! Recusandae veniam minima modi sed. Iusto tenetur cumque magnam consequuntur porro. Quisquam perferendis voluptas iste doloribus totam quod ipsa esse facere pariatur quo veniam delectus excepturi quidem in ipsam vel, dolore labore vero at voluptates non. Quaerat facilis exercitationem consectetur, sapiente inventore rerum! Voluptatem, eos? Corrupti, velit?
+                </p>
+
+                <h3 className="flex items-center text-[#0080B9] font-black text-5xl bg-white w-full px-5 py-2 lg:text-8xl lg:text-8xl xl:text-[10rem] xl:h-[300px]">
+                    Oferta
+                </h3>
+
             </div>
-            <div className="bg-[url(../src/assets/avion-napoles.png)] h-[400px] lg:h-600 bg-no-repeat bg-cover">
-            </div>
-              <h3 className="text-[#0080B9] font-black text-5xl lg:text-8xl bg-white w-full px-5 py-2"> 
-                Oferta
-              </h3>
-        </div>
+
+        </section>
     )
 }
 
