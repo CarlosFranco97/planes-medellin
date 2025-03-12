@@ -1,6 +1,7 @@
 const TourGuatape = () => {
     return (
-        <section className="bg-[url(../src/assets/guatape.png)] bg-no-repeat bg-cover bg-center min-h-screen w-full">
+        <section id="tour-guatape" 
+            className="bg-[url(../src/assets/guatape.png)] bg-no-repeat bg-cover bg-center min-h-screen w-full">
 
             <div className="flex flex-col justify-between gap-5 min-w-full min-h-screen pt-10">
 

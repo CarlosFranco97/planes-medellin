@@ -1,6 +1,8 @@
 const SantaFeAntioquia = () => {
     return (
-        <section className="bg-[url(../src/assets/santafe-antioquia.png)] bg-no-repeat bg-cover bg-center min-h-screen w-full">
+        <section 
+        id="santafe-antioquia"
+        className="bg-[url(../src/assets/santafe-antioquia.png)] bg-no-repeat bg-cover bg-center min-h-screen w-full">
 
             <div className="flex flex-col justify-between min-w-full min-h-screen">
 

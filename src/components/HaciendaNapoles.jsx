@@ -1,6 +1,8 @@
 const HaciendaNapoles = () => {
     return (
-        <section className="bg-[url(../src/assets/avion-napoles.png)] bg-no-repeat bg-center bg-cover w-full min-h-screen">
+        <section
+            id="hacienda-napoles" 
+            className="bg-[url(../src/assets/avion-napoles.png)] bg-no-repeat bg-center bg-cover w-full min-h-screen">
 
             <div className="flex flex-col justify-between w-full h-screen">
 
