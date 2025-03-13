@@ -4,7 +4,7 @@ const Home = () => {
 
             <div className="flex flex-col justify-start gap-20 items-center p-4 max-w-full min-h-screen lg:flex lg:flex-col lg:justify-evenly">
 
-                <h1 className="text-yellow-300 text-center max-w-full font-extrabold text-5xl sm:text-8xl lg:text-9xl xl:text-[15rem] 2xl:text-[28rem]">
+                <h1 className="text-yellow-300 text-center max-w-full font-black text-5xl sm:text-8xl lg:text-9xl xl:text-[15rem] 2xl:text-[28rem]">
                     ¿NO SABES QUE HACER EN MEDELLÍN?
                 </h1>
 
