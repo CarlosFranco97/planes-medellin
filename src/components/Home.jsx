@@ -1,6 +1,6 @@
 const Home = () => {
     return (
-        <section className="flex justify-center w-full h-[400px] lg:h-[900px] sm:min-h-screen 2xl:h-auto">
+        <section className="flex justify-center w-full h-[400px] lg:h-[900px] sm:min-h-screen 2xl:min-h-screen">
 
             <div className="flex flex-col justify-start gap-20 items-center p-4 max-w-full h-full lg:flex lg:flex-col lg:justify-evenly 2xl:justify-center 2xl:gap-50 2xl:min-h-screen">
 
