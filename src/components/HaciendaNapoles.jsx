@@ -6,7 +6,7 @@ const HaciendaNapoles = () => {
 
             <div className="flex flex-col justify-between w-full h-screen">
 
-                <h2 className="text-5xl font-black text-white m-5 lg:text-8xl xl:text-[15rem] xl:m-15">
+                <h2 className="text-5xl font-black text-white m-5 md:text-7xl lg:text-8xl xl:text-[10rem] xl:m-15 ">
                     HACIENDA NAPOLÉS
                 </h2>
 

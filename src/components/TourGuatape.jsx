@@ -5,7 +5,7 @@ const TourGuatape = () => {
 
             <div className="flex flex-col justify-between gap-5 min-w-full min-h-screen pt-10">
 
-                <h2 className="bg-white w-full h-30 text-5xl flex justify-center items-center text-[#0080B9] font-black shadow-xl lg:h-60 lg:text-8xl xl:text-[12rem] xl:h-90">
+                <h2 className="bg-white w-full h-30 text-5xl flex justify-center items-center text-[#0080B9] font-black shadow-xl md:text-7xl lg:h-60 lg:text-8xl xl:text-[10rem] xl:h-90">
                     TOUR GUATAPÉ
                 </h2>
 
