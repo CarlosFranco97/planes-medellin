@@ -11,7 +11,7 @@ const Encabezado = () => {
     }
     
     return (
-        <header className='flex justify-end items-center w-full h-25 xl:h-40'>
+        <header className='flex justify-end items-center w-full h-auto'>
             <BotonHamburguesa alternarMenu={alternarMenu} menuAbierto={menuAbierto}/>
 
             <MenuLateral alternarMenu={alternarMenu} menuAbierto={menuAbierto} />

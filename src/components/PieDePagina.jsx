@@ -1,11 +1,11 @@
 const PieDePagina = () => {
     return (
         <footer className="flex justify-center items-center w-full h-60">
-            <div>
+            {/* <div>
                 <p className="text-9xl text-[#0080B9] font-bold">
                 &#169; Desarrollador por Grupo Recrea
                 </p>
-            </div>
+            </div> */}
         </footer>
     )
 }

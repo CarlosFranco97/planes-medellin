@@ -1,7 +1,7 @@
 const BotonHamburguesa = ({ alternarMenu, menuAbierto }) => {
     return (
-        <section className="flex justify-center items-center xl:mt-36">
-            <h2 className=" text-4xl text-white font-bold xl:mb-[8%] xl:text-9xl"> 
+        <section className="flex justify-center items-center xl:mt-4 2xl:mt-5">
+            <h2 className=" text-4xl text-white font-bold xl:mb-[8%] xl:text-6xl"> 
                 Tours
             </h2>
             <div
