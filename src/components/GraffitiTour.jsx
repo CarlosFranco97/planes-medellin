@@ -4,7 +4,7 @@ const GraffitiTour = () => {
             id="graffiti-tour"
             className="bg-[url(../src/assets/graffiti-tour.png)] bg-no-repeat bg-cover bg-center w-full min-h-screen">
 
-            <div className="flex flex-col justify-between  max-w-full h-screen">
+            <div className="flex flex-col justify-between  max-w-full min-h-screen">
                 
                 <h2 className="text-5xl font-extrabold text-white m-5 md:text-7xl lg:text-8xl xl:text-[12rem] xl:m-15">
                     GRAFFITI TOUR

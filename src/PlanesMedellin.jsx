@@ -11,7 +11,7 @@ import PieDePagina from "./components/PieDePagina";
 
 const PlanesMedellin = () => {
     return (
-        <div className="bg-[url(../src/assets/piedra-peñol.png)]  bg-contain h-full max-w-full flex flex-col items-center">
+        <div className="bg-[url(../src/assets/piedra-del-peñol.png)]  bg-contain h-full max-w-full flex flex-col items-center">
             <Encabezado />
             <Home />
             <ReservaAhora />
