@@ -2,7 +2,7 @@ const GraffitiTour = () => {
     return (
         <section 
             id="graffiti-tour"
-            className="bg-[url(../src/assets/graffiti-tour.png)] bg-no-repeat bg-cover object-cover bg-center w-full min-h-screen">
+            className="bg-[url(../src/assets/graffiti-tour.png)] bg-no-repeat bg-cover bg-center w-full min-h-screen">
 
             <div className="flex flex-col justify-between  max-w-full min-h-screen">
                 
