@@ -5,7 +5,7 @@ const TourGuatape = () => {
 
             <div className="flex flex-col justify-between gap-5 min-w-full min-h-screen pt-10">
 
-                <h2 className="bg-white w-full h-30 text-5xl flex justify-center items-center text-[#0080B9] font-black shadow-xl md:text-7xl lg:h-60 lg:text-8xl xl:text-[10rem] xl:h-90">
+                <h2 className="bg-white w-full h-auto py-6 text-5xl flex justify-center items-center text-[#0080B9] font-black shadow-xl md:text-7xl lg:text-8xl xl:text-[10rem] 2xl:text-[7rem]">
                     TOUR GUATAPÉ
                 </h2>
 
@@ -16,7 +16,7 @@ const TourGuatape = () => {
                 <h3 className="ml-5 text-white font-black text-5xl lg:text-7xl xl:text-9xl">
                     Incluye:
                 </h3>
-                <h3 className="flex items-center bg-white text-[#0080B9] font-black text-5xl w-full px-5 py-2 lg:text-8xl xl:text-[10rem] xl:h-[300px]"> 
+                <h3 className="flex items-center bg-white text-[#0080B9] font-black text-5xl w-full p-5 lg:text-8xl xl:text-[10rem] 2xl:text-[7rem]"> 
                     Oferta
                 </h3>
 

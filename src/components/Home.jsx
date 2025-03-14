@@ -8,7 +8,7 @@ const Home = () => {
                     ¿NO SABES QUE HACER EN MEDELLÍN?
                 </h1>
 
-                <button className="bg-[#0080B9]/50 text-white w-[90%] h-20 rounded-3xl text-2xl cursor-pointer font-black hover:bg-[#0080B9]/30 shadow-2xl transition-all duration-900 sm:h-20 sm:w-[85%] sm:text-3xl md:w-[65%] lg:text-4xl lg:w-[60%] lg:h-25 xl:text-[4rem] xl:w-[80%] xl:h-60 2xl:w-[60%] 2xl:h-55 2xl:text-[3rem]">
+                <button className="bg-[#0076AB]/50 text-white w-[90%] max-w-[800px] h-20 rounded-3xl text-2xl cursor-pointer font-black hover:bg-[#0080B9]/30 shadow-2xl transition-all duration-900 sm:h-20 sm:text-3xl lg:text-4xl lg:h-25 xl:text-[4rem]  xl:h-60 2xl:h-55 2xl:text-[3rem]">
                      CONOCE LOS PLANES AQUÍ
                 </button>   
 
