@@ -7,10 +7,11 @@ import ReservaAhora from "./components/ReservaAhora";
 import SantaFeAntioquia from "./components/SantaFeAntioquia";
 import TourGuatape from "./components/TourGuatape";
 import Slider from "./Slider";
+import PiedraLayout from "./layouts/PiedraLayout";
 
 const PlanesMedellin = () => {
     return (
-        <div className="bg-[url(../src/assets/piedra-del-peñol.png)]  bg-contain h-full max-w-full flex flex-col items-center">
+        <PiedraLayout>
             <Encabezado />
             <Home />
             <ReservaAhora />
@@ -20,7 +21,7 @@ const PlanesMedellin = () => {
             <GraffitiTour />
             <ComunaTrece />
             <Slider />
-        </div> 
+        </PiedraLayout>
     )
 }
 
