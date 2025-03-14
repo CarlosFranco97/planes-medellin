@@ -27,13 +27,13 @@ const Slider = () => {
         className="mySwiper w-full h-full"
       >
         <SwiperSlide>
-          <img src="/src/helpers/img/sin-tc3adtulo.png" alt="Slide 1" className="w-full h-full object-cover" />
+          <img src="/public/img/sin-tc3adtulo.png" alt="Slide 1" className="w-full h-full object-cover" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/src/helpers/img/Guatape-2.jpg" alt="Slide 2" className="w-full h-full object-cover" />
+          <img src="/public/img/Guatape-2.jpg" alt="Slide 2" className="w-full h-full object-cover" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/src/helpers/img/pasted image 0.png" alt="Slide 3" className="w-full h-full object-cover" />
+          <img src="/public/img/pag.png" alt="Slide 3" className="w-full h-full object-cover" />
         </SwiperSlide>
         {/* <SwiperSlide>
           <img src="/src/" alt="Slide 4" className="w-full h-full object-cover" />
