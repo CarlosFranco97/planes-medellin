@@ -17,7 +17,7 @@ const Slider = () => {
         centeredSlides={true}
         autoplay={{
           delay: 3500,
-          disableOnInteraction: false,
+          disableOnInteraction: false,  
         }}
         pagination={{
           clickable: true,
@@ -27,17 +27,17 @@ const Slider = () => {
         className="mySwiper w-full h-full"
       >
         <SwiperSlide>
-          <img src="/src/assets/hacienda-napoles.png" alt="Slide 1" className="w-full h-full object-cover" />
+          <img src="/src/helpers/img/sin-tc3adtulo.png" alt="Slide 1" className="w-full h-full object-cover" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/src/assets/hacienda-napoles.png" alt="Slide 2" className="w-full h-full object-cover" />
+          <img src="/src/helpers/img/Guatape-2.jpg" alt="Slide 2" className="w-full h-full object-cover" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/src/assets/hacienda-napoles.png" alt="Slide 3" className="w-full h-full object-cover" />
+          <img src="/src/helpers/img/pasted image 0.png" alt="Slide 3" className="w-full h-full object-cover" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src="/src/assets/hacienda-napoles.png" alt="Slide 4" className="w-full h-full object-cover" />
-        </SwiperSlide>
+        {/* <SwiperSlide>
+          <img src="/src/" alt="Slide 4" className="w-full h-full object-cover" />
+        </SwiperSlide> */}
       </Swiper>
     </div>
   );

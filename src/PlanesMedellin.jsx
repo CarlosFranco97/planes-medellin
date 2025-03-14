@@ -19,7 +19,7 @@ const PlanesMedellin = () => {
             <SantaFeAntioquia />
             <GraffitiTour />
             <ComunaTrece />
-            < Slider />
+            <Slider />
         </div> 
     )
 }
