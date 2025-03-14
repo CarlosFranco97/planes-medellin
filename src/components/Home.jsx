@@ -2,9 +2,9 @@ const Home = () => {
     return (
         <section className="w-full min-h-screen flex justify-center items-center">
 
-            <div className="flex flex-col justify-around items-center gap-20 p-4 max-w-[1600px] min-h-screen md:justify-center lg:justify-evenly 2xl:justify-center 2xl:gap-50">
+            <div className="flex flex-col justify-center items-center gap-2 p-4 max-w-[1600px] min-h-screen sm:gap-20 md:justify-center lg:justify-evenly 2xl:justify-center 2xl:gap-50">
 
-                <h1 className="text-yellow-300 text-center font-black text-[2.9rem] sm:text-8xl lg:text-9xl xl:text-[10rem] 2xl:text-[11rem]">
+                <h1 className="text-yellow-300 text-center font-black text-[2.9rem] sm:text-7xl md:text-8xl lg:text-8xl xl:text-[10rem] 2xl:text-[11rem]">
                     ¿NO SABES QUE HACER EN MEDELLÍN?
                 </h1>
 
