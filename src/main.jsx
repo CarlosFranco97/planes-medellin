@@ -4,7 +4,7 @@ import PlanesMedellin from './PlanesMedellin'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  // <StrictMode>
     <PlanesMedellin />
-  </StrictMode>,
+  // </StrictMode>,
 )
