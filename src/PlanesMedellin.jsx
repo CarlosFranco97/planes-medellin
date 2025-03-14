@@ -6,7 +6,10 @@ import Home from "./components/Home";
 import ReservaAhora from "./components/ReservaAhora";
 import SantaFeAntioquia from "./components/SantaFeAntioquia";
 import TourGuatape from "./components/TourGuatape";
-import Slider from "./Slider";
+import Slider from "./components/Slider";
+import SliderInicio from "./components/SliderInicio";
+
+
 
 const PlanesMedellin = () => {
     return (
@@ -20,6 +23,7 @@ const PlanesMedellin = () => {
             <GraffitiTour />
             <ComunaTrece />
             <Slider />
+            <SliderInicio />
         </div> 
     )
 }
