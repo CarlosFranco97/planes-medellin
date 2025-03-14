@@ -1,6 +1,5 @@
 const BotonHamburguesa = ({ alternarMenu, menuAbierto }) => {
     return (
-        // <section className="flex justify-center items-center bg-purple-500">
 
         <div
             className={`relative flex flex-col justify-evenly items-center m-4 w-15 h-12 cursor-pointer z-30 xl:h-22 xl:w-30 2xl:w-60 2xl:h-30`}
@@ -20,7 +19,6 @@ const BotonHamburguesa = ({ alternarMenu, menuAbierto }) => {
 
         </div>
 
-        // </section>
     )
 }
 
