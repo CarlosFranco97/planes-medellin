@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import { ChevronLeft, ChevronRight } from "lucide-react"
+import BotonReserva from "./BotonReserva"
 
 const cn = (...classes) => {
   return classes.filter(Boolean).join(' ');
@@ -110,6 +111,10 @@ const SliderInicio = ({
                 aria-label={`Go to slide ${index + 1}`}
               />
             ))}
+          </div>
+
+          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-40 " >
+            <BotonReserva style={{ transform: 'scale(0.8)' }} />
           </div>
         </div>
       )
