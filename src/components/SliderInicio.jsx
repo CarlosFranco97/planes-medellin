@@ -46,7 +46,10 @@ const SliderInicio = ({
     }
 
     return (
-        <div className={cn("relative w-full h-screen overflow-hidden rounded-lg p-4 md:p-8", className)}>
+        <div 
+        id="conoce-planes"
+        className={cn("relative w-full h-screen overflow-hidden rounded-lg p-4 md:p-8", className)}>
+
           <div className="h-full flex items-center justify-center">
             {images.map((image, index) => {
               const position = (index - currentIndex + images.length) % images.length;
@@ -62,7 +65,7 @@ const SliderInicio = ({
                   key={index}
                   className={cn(
                     "absolute h-[80%] transition-all duration-500 ease-out",
-                    isCenter ? "w-[80vw] md:w-[60vw] z-20 scale-110" : "w-[60vw] md:w-[40vw] opacity-70",
+                    isCenter ? "w-[100%] md:w-[60vw] z-20 scale-110" : "w-[60vw] md:w-[40vw] opacity-70",
                   )}
                   style={{
                     transform: `translateX(${translateX}%) ${isCenter ? "scale(1.1)" : "scale(0.9)"}`,
