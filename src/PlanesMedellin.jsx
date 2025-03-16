@@ -8,10 +8,9 @@ import SantaFeAntioquia from "./components/SantaFeAntioquia";
 import TourGuatape from "./components/TourGuatape";
 import Slider from "./components/Slider";
 import SliderInicio from "./components/SliderInicio";
-
-import Slider from "./Slider";
 import PiedraLayout from "./layouts/PiedraLayout";
-import SliderInicio from "./components/SliderInicio";
+
+
 const PlanesMedellin = () => {
     return (
         <PiedraLayout>
@@ -25,8 +24,6 @@ const PlanesMedellin = () => {
             <SantaFeAntioquia />
             <ComunaTrece />
             <Slider />
-            <SliderInicio />
-        </div> 
         </PiedraLayout>
     )
 }
