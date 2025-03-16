@@ -10,6 +10,23 @@ import Slider from "./components/Slider";
 import SliderInicio from "./components/SliderInicio";
 import PiedraLayout from "./layouts/PiedraLayout";
 
+const PlanesMedellin = () => {
+  return (
+    <PiedraLayout>
+      <Encabezado />
+      <Home />
+      <SliderInicio />
+      <ReservaAhora />
+      <TourGuatape />
+      <GraffitiTour />
+      <HaciendaNapoles />
+      <SantaFeAntioquia />
+      <ComunaTrece />
+      <Slider />
+      <SliderInicio />
+    </PiedraLayout>
+  );
+};
 
 const PlanesMedellin = () => {
     return (
