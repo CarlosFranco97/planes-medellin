@@ -8,27 +8,24 @@ import SantaFeAntioquia from "./components/SantaFeAntioquia";
 import TourGuatape from "./components/TourGuatape";
 import Slider from "./components/Slider";
 import SliderInicio from "./components/SliderInicio";
-
-import Slider from "./Slider";
 import PiedraLayout from "./layouts/PiedraLayout";
-import SliderInicio from "./components/SliderInicio";
+
 const PlanesMedellin = () => {
-    return (
-        <PiedraLayout>
-            <Encabezado />
-            <Home />
-            <SliderInicio />
-            <ReservaAhora />
-            <TourGuatape />
-            <GraffitiTour />
-            <HaciendaNapoles />
-            <SantaFeAntioquia />
-            <ComunaTrece />
-            <Slider />
-            <SliderInicio />
-        </div> 
-        </PiedraLayout>
-    )
-}
+  return (
+    <PiedraLayout>
+      <Encabezado />
+      <Home />
+      <SliderInicio />
+      <ReservaAhora />
+      <TourGuatape />
+      <GraffitiTour />
+      <HaciendaNapoles />
+      <SantaFeAntioquia />
+      <ComunaTrece />
+      <Slider />
+      <SliderInicio />
+    </PiedraLayout>
+  );
+};
 
 export default PlanesMedellin;

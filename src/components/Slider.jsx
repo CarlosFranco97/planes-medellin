@@ -15,9 +15,9 @@ import {
 
 const Slider = ({
   images = [
-    "/public/img/sin-tc3adtulo.png",
-    "/public/img/Guatape-2.jpg",
-    "/public/img/pag.png",
+    "/img/replica-penol.PNG",
+    "/img/carro-rojo.PNG",
+    "/img/amigas-foto.PNG",
   ],
   title = "GUATAPE",
   sections = [
@@ -47,6 +47,15 @@ const Slider = ({
   ],
 }) => {
   const [isExpanded, setIsExpanded] = useState(false);
+  const [loadedImages, setLoadedImages] = useState([]);
+
+  const handleImageLoad = (index) => {
+    setLoadedImages([...loadedImages, index]);
+  };
+
+  const handleImageError = (index) => {
+    console.error(`Error loading image at index ${index}`);
+  };
 
   return (
     <div className="relative w-full min-h-screen md:h-screen flex flex-col md:flex-row">
@@ -68,7 +77,13 @@ const Slider = ({
               <img
                 src={image}
                 alt={`Slide ${index + 1}`}
-                className="w-full h-full object-cover"
+                className={`
+                  w-full h-full object-cover
+                  transition-opacity duration-300
+                  ${loadedImages.includes(index) ? "opacity-100" : "opacity-0"}
+                `}
+                onLoad={() => handleImageLoad(index)}
+                onError={() => handleImageError(index)}
               />
             </SwiperSlide>
           ))}
