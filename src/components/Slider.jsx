@@ -117,7 +117,7 @@ const Slider = ({
       >
         <div className="sticky top-0 z-30 w-full bg-white/80 backdrop-blur-sm md:hidden">
           <div className="flex justify-between items-center px-4 py-3">
-            <div className="w-8"></div> {/* Espaciador */}
+            <div className="w-8"></div>
             <div className="w-20 h-1 bg-gray-300 rounded-full"></div>
             <button
               onClick={() => setIsExpanded(false)}
