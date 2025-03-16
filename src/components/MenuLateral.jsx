@@ -10,7 +10,7 @@ const MenuLateral = ({menuAbierto, alternarMenu}) => {
     
 
     return (
-            <div className={`flex flex-col justify-around items-center w-full h-screen bg-white opacity-90 text-3xl p-6 font-black text-center fixed top-0 right-0 transition-all duration-900 ease-in-out lg:text-3xl 2xl:text-4xl 2xl:max-w-[50%] ${(!menuAbierto) 
+            <nav className={`flex flex-col justify-around items-center w-full h-screen bg-white opacity-90 text-3xl p-6 font-black text-center fixed top-0 right-0 transition-all duration-900 ease-in-out lg:text-3xl 2xl:text-4xl 2xl:max-w-[50%] ${(!menuAbierto) 
             ? "translate-x-full invisible opacity-0" 
             : "translate-x-0 visible" }`}>
             <Link
@@ -21,6 +21,15 @@ const MenuLateral = ({menuAbierto, alternarMenu}) => {
                 onClick={alternarMenu}
                 >
                 Tour guatapé
+            </Link>
+            <Link
+                className="cursor-pointer"
+                to="graffiti-tour"
+                smooth={true}
+                duration={900}
+                onClick={alternarMenu}
+            >
+                Graffiti tour
             </Link>
             <Link
                 className="cursor-pointer"
@@ -40,15 +49,6 @@ const MenuLateral = ({menuAbierto, alternarMenu}) => {
             >
                 Santa fe de Antioquia
             </Link>
-            <Link
-                className="cursor-pointer"
-                to="graffiti-tour"
-                smooth={true}
-                duration={900}
-                onClick={alternarMenu}
-            >
-                Graffiti tour
-            </Link>
             <Link  
                 className="cursor-pointer"
                 to="comuna-trece"
@@ -58,7 +58,7 @@ const MenuLateral = ({menuAbierto, alternarMenu}) => {
             >
                 Comuna 13
             </Link>
-        </div>
+        </nav>
     )
 }
 

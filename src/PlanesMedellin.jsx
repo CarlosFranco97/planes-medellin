@@ -9,20 +9,25 @@ import TourGuatape from "./components/TourGuatape";
 import Slider from "./components/Slider";
 import SliderInicio from "./components/SliderInicio";
 
+import Slider from "./Slider";
+import PiedraLayout from "./layouts/PiedraLayout";
+import SliderInicio from "./components/SliderInicio";
 const PlanesMedellin = () => {
     return (
-        <div className="bg-[url(../src/assets/piedra-peñol.png)]  bg-contain h-full max-w-full flex flex-col items-center">
+        <PiedraLayout>
             <Encabezado />
             <Home />
+            <SliderInicio />
             <ReservaAhora />
             <TourGuatape />
+            <GraffitiTour />
             <HaciendaNapoles />
             <SantaFeAntioquia />
-            <GraffitiTour />
             <ComunaTrece />
             <Slider />
             <SliderInicio />
         </div> 
+        </PiedraLayout>
     )
 }
 
