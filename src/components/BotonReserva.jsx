@@ -14,10 +14,10 @@ const BotonReserva = () => {
         target='_blank'
         rel="noopener noreferrer"
         className="
-        flex justify-center items-center gap-3 bg-[#29A71A] text-white text-center text-[1.3rem] py-4 px-15 h-auto w-auto rounded-full font-black shadow-2xl cursor-pointer  sm:text-3xl md:text-2xl lg:text-5xl xl:text-4xl 2xl:text-7xl"
+        flex justify-center items-center gap-3 bg-[#29A71A] text-white text-center text-[1.3rem] p-4 rounded-full font-black shadow-2xl cursor-pointer max-w-[600px] sm:text-3xl md:text-2xl lg:text-5xl xl:text-4xl 2xl:text-5xl"
     >
         <img 
-            className="w-10 lg:h-10 sm:w-15 sm:h-15 lg:w-35 lg:h-35"
+            className="w-10 sm:w-12 sm:h-12 lg:w-20 lg:h-20"
             src="/whatsapp.svg" 
             alt="whatsapp" 
 

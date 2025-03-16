@@ -20,6 +20,10 @@ const HaciendaNapoles = () => {
   const handleImageLoad = (index) => {
     setLoadedImages([...loadedImages, index]);
   };
+    return (
+        <section
+            id="hacienda-napoles" 
+            className="bg-[url(../src/assets/hacienda-napoles.png)] bg-no-repeat bg-center bg-cover w-full min-h-screen">
 
   const handleImageError = (index) => {
     console.error(`Error loading image at index ${index}`);
@@ -91,6 +95,9 @@ const HaciendaNapoles = () => {
               <h1 className="text-yellow-300 text-center font-extrabold text-3xl md:text-4xl lg:text-5xl drop-shadow-md sticky top-12 md:top-0 bg-white/80 backdrop-blur-sm py-4 rounded-lg">
                 HACIENDA NÁPOLES
               </h1>
+                <h3 className="flex justify-center items-center bg-white text-[#0080B9] font-black text-[1.5rem] w-full p-5 lg:text-8xl xl:text-[4rem] 2xl:text-[5rem]"> 
+                    OFERTA DESDE 249.900 COP
+                </h3>
 
               <div className="grid grid-cols-1 gap-6 md:gap-8 pb-20 md:pb-4">
                 <div className="bg-white/80 rounded-xl p-4 md:p-6 shadow-lg hover:shadow-xl transition-all duration-300">
