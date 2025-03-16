@@ -12,7 +12,6 @@ import PiedraLayout from "./layouts/PiedraLayout";
 import PieDePagina from "./components/PieDePagina";
 
 
-
 const PlanesMedellin = () => {
     return (
         <PiedraLayout>
