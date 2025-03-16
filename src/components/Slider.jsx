@@ -115,7 +115,6 @@ const Slider = ({
           rounded-t-3xl md:rounded-none
         `}
       >
-        {/* Barra superior con botón de cerrar */}
         <div className="sticky top-0 z-30 w-full bg-white/80 backdrop-blur-sm md:hidden">
           <div className="flex justify-between items-center px-4 py-3">
             <div className="w-8"></div> {/* Espaciador */}
@@ -142,7 +141,6 @@ const Slider = ({
           </div>
         </div>
 
-        {/* Contenedor con scroll personalizado */}
         <div
           className={`
             h-full md:h-full
