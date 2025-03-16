@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import BotonReserva from "./BotonReserva"
+import BotonAgenda from "./BotonAgenda";
 
 const cn = (...classes) => {
   return classes.filter(Boolean).join(' ');
@@ -86,9 +87,10 @@ const SliderInicio = ({
             </div>
           );
         })}
-        <h2 className="text-4xl w-full absolute top-0 p-8 text-[#0080B9] text-center z-50 font-black bg-white sm:text-5xl">
+        <h2 className="text-3xl w-full absolute top-0 p-8 text-[#0080B9] text-center z-50 font-black bg-white sm:text-5xl">
           Nuestros tours son confiables y seguros
         </h2>
+        <BotonAgenda />
       </div>
 
 

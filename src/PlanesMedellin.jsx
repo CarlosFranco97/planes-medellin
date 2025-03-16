@@ -9,24 +9,9 @@ import TourGuatape from "./components/TourGuatape";
 import Slider from "./components/Slider";
 import SliderInicio from "./components/SliderInicio";
 import PiedraLayout from "./layouts/PiedraLayout";
+import PieDePagina from "./components/PieDePagina";
 
-const PlanesMedellin = () => {
-  return (
-    <PiedraLayout>
-      <Encabezado />
-      <Home />
-      <SliderInicio />
-      <ReservaAhora />
-      <TourGuatape />
-      <GraffitiTour />
-      <HaciendaNapoles />
-      <SantaFeAntioquia />
-      <ComunaTrece />
-      <Slider />
-      <SliderInicio />
-    </PiedraLayout>
-  );
-};
+
 
 const PlanesMedellin = () => {
     return (
@@ -41,6 +26,7 @@ const PlanesMedellin = () => {
             <SantaFeAntioquia />
             <ComunaTrece />
             <Slider />
+            <PieDePagina />
         </PiedraLayout>
     )
 }

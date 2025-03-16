@@ -10,7 +10,7 @@ const GraffitiTour = () => {
                     GRAFFITI TOUR
                 </h2>
 
-                <h3 className="flex items-center bg-white text-[#0080B9] font-black text-[2rem] w-full p-5 lg:text-8xl xl:text-[6rem] 2xl:text-[7rem]"> 
+                <h3 className="flex justify-center items-center bg-white text-[#0080B9] font-black text-[2rem] w-full p-5 lg:text-8xl xl:text-[4rem] 2xl:text-[5rem]"> 
                     OFERTA 69.900 COP
                 </h3>
 
