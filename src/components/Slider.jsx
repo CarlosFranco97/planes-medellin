@@ -13,6 +13,7 @@ import {
   paginationBulletActiveStyle,
 } from "../helpers/SwiperConfig";
 
+// Constantes
 const Slider = ({
   images = [
     "/img/replica-penol.PNG",
