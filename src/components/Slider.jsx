@@ -1,17 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import {
-  swiperConfig,
-  buttonStyle,
-  paginationBulletStyle,
-  paginationBulletActiveStyle,
-} from "../helpers/SwiperConfig";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
 
 // Constantes
 const Slider = ({
@@ -58,6 +51,7 @@ const Slider = ({
     console.error(`Error loading image at index ${index}`);
   };
 
+const Slider = () => {
   return (
     <div className="relative w-full min-h-screen md:h-screen flex flex-col md:flex-row">
       <div className="w-full h-screen md:h-full md:w-1/2 relative">
@@ -203,6 +197,34 @@ const Slider = ({
           </div>
         </div>
       </section>
+    <div className="w-full h-screen flex justify-center items-center">
+      <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 3500,
+          disableOnInteraction: false,  
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper w-full h-full"
+      >
+        <SwiperSlide>
+          <img src="/img/sin-tc3adtulo.png" alt="Slide 1" className="w-full h-full object-cover" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/img/Guatape-2.jpg" alt="Slide 2" className="w-full h-full object-cover" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/img/pag.png" alt="Slide 3" className="w-full h-full object-cover" />
+        </SwiperSlide>
+        {/* <SwiperSlide>
+          <img src="/src/" alt="Slide 4" className="w-full h-full object-cover" />
+        </SwiperSlide> */}
+      </Swiper>
     </div>
   );
 };

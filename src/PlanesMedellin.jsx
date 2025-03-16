@@ -28,4 +28,21 @@ const PlanesMedellin = () => {
   );
 };
 
+const PlanesMedellin = () => {
+    return (
+        <PiedraLayout>
+            <Encabezado />
+            <Home />
+            <SliderInicio />
+            <ReservaAhora />
+            <TourGuatape />
+            <GraffitiTour />
+            <HaciendaNapoles />
+            <SantaFeAntioquia />
+            <ComunaTrece />
+            <Slider />
+        </PiedraLayout>
+    )
+}
+
 export default PlanesMedellin;
