@@ -1,3 +1,5 @@
+import SliderGuatape from "./SliderGuatape";
+
 const TourGuatape = () => {
     return (
         <section id="tour-guatape" 
@@ -9,13 +11,9 @@ const TourGuatape = () => {
                     TOUR GUATAPÉ
                 </h2>
 
-                {/* <img 
-                    src=""
-                    alt="" 
-                    className="rounded-full" 
-                />
-                 */}
-                <h3 className="flex justify-center items-center bg-white text-[#0080B9] font-black text-[1.5rem] w-full p-5 lg:text-8xl xl:text-[4rem] 2xl:text-[5rem]"> 
+                    <SliderGuatape />
+               
+                <h3 className="flex justify-center items-center bg-white text-[#0080B9] font-black text-[1.5rem] w-full p-5 sm:text-4xl lg:text-8xl xl:text-[4rem] 2xl:text-[5rem]"> 
                     OFERTA DESDE 119.900 COP
                 </h3>
 
