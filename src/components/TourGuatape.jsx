@@ -1,8 +1,7 @@
-import usuario from '../assets/usuario.png'
 const TourGuatape = () => {
     return (
         <section id="tour-guatape" 
-            className="bg-[url(../src/assets/lago-peñol.PNG)] bg-no-repeat bg-cover bg-center min-h-screen w-full">
+            className="bg-[url(../src/assets/represa-guatape.PNG)] bg-no-repeat bg-cover bg-center min-h-screen w-full">
 
             <div className="flex flex-col justify-between gap-5 min-w-full min-h-screen pt-10">
 

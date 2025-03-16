@@ -1,16 +1,17 @@
 import { useState, useEffect } from "react"
 import { ChevronLeft, ChevronRight } from "lucide-react"
-
 const cn = (...classes) => {
   return classes.filter(Boolean).join(' ');
 };
 
+
 const SliderInicio = ({
   images = [
-    '/public/img/sin-tc3adtulo.png',
-    '/public/img/Guatape-2.jpg',
-    '/public/img/pag.png',
-    '/public/img/tour-guatapecopy.png',
+    '/img/amigas-foto.PNG',
+    '/img/carro-rojo.PNG',
+    '/img/foto-gato.PNG',
+    '/img/bandera-colombia.PNG',
+    '/img/replica-penol.PNG',
   ],
   autoPlay = true,
   autoPlayInterval = 5000,
@@ -49,7 +50,6 @@ const SliderInicio = ({
         <div 
         id="conoce-planes"
         className={cn("relative w-full h-screen overflow-hidden rounded-lg p-4 md:p-8", className)}>
-
           <div className="h-full flex items-center justify-center">
             {images.map((image, index) => {
               const position = (index - currentIndex + images.length) % images.length;
@@ -64,7 +64,7 @@ const SliderInicio = ({
                 <div
                   key={index}
                   className={cn(
-                    "absolute h-[80%] transition-all duration-500 ease-out",
+                    "absolute h-[80%] transition-all duration-500 ease-out xl:h-[100%] 2xl:h-[100%]",
                     isCenter ? "w-[100%] md:w-[60vw] z-20 scale-110" : "w-[60vw] md:w-[40vw] opacity-70",
                   )}
                   style={{
@@ -101,7 +101,7 @@ const SliderInicio = ({
             <ChevronRight size={24} />
           </button>
     
-          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-30">
+          <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex gap-2 z-30">
             {images.map((_, index) => (
               <button
                 key={index}

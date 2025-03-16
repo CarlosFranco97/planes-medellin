@@ -21,7 +21,6 @@ const PlanesMedellin = () => {
             <HaciendaNapoles />
             <SantaFeAntioquia />
             <ComunaTrece />
-            <Slider />
         </PiedraLayout>
     )
 }
