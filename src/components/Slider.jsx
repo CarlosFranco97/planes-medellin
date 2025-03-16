@@ -74,7 +74,6 @@ const Slider = ({
           ))}
         </Swiper>
 
-        {/* Botón expandir para móvil */}
         <button
           onClick={() => setIsExpanded(true)}
           className={`
