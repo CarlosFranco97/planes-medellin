@@ -1,4 +1,4 @@
-import BotonReserva from "./BotonReserva";
+import BotonReserva from "../common/BotonReserva";
 
 const PieDePagina = () => {
     return (

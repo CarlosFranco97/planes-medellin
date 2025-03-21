@@ -5,7 +5,7 @@ const HaciendaNapoles = () => {
   return (
     <div
       id="hacienda-napoles"
-      className="bg-[url(../src/assets/hacienda-napoles.png)] bg-no-repeat bg-center bg-cover w-full min-h-screen"
+      className="bg-[url(../src/assets/hacienda-napoles.webp)] bg-no-repeat bg-center bg-cover w-full min-h-screen"
     >
       <div className="flex flex-col justify-between min-w-full min-h-screen">
         <h2 className="text-5xl font-extrabold text-white m-5 md:text-7xl lg:text-8xl xl:text-[6rem] xl:m-15 2xl:text-[7rem]">

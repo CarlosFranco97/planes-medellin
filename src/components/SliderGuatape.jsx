@@ -1,5 +1,8 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import piedraPenol from '../assets/piedra-del-peñol.webp';
+import represaGuatape from '../assets/represa-guatape.webp'; 
+import amigasFoto from '../assets/amigas-foto.webp';
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -15,9 +18,9 @@ import {
 
 const SliderGuatape = ({
   images = [
-    "/img/replica-penol.PNG",
-    "/img/carro-rojo.PNG",
-    "/img/amigas-foto.PNG",
+    piedraPenol,
+    represaGuatape,
+    amigasFoto,
   ],
   title = "GUATAPE",
   sections = [
@@ -57,6 +60,12 @@ const SliderGuatape = ({
   const handleImageError = (index) => {
     console.error(`Error loading image at index ${index}`);
   };
+
+  useEffect(() => {
+    (isExpanded) 
+    ? document.body.classList.add('overflow-hidden')
+    : document.body.classList.remove('overflow-hidden'); 
+  }, [isExpanded]);
 
   const Content = () => (
     <section
@@ -114,7 +123,7 @@ const SliderGuatape = ({
           `}
         >
           <div className="flex flex-col gap-6 md:gap-8">
-            <h1 className="text-yellow-300 text-center font-extrabold text-3xl md:text-4xl lg:text-5xl drop-shadow-md sticky top-12 md:top-0 bg-white/80 backdrop-blur-sm py-4 rounded-lg">
+            <h1 className="text-yellow-300 text-center font-extrabold text-3xl md:text-4xl lg:text-5xl drop-shadow-md top-12 md:top-0 bg-white/80 backdrop-blur-sm py-4 rounded-lg">
               {title}
             </h1>
 

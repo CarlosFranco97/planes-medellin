@@ -1,4 +1,4 @@
-import BotonReserva from "./BotonReserva";
+import BotonReserva from "../common/BotonReserva";
 import videoTour from '../assets/video-tour.mp4';
 
 const ReservaAhora = () => {
