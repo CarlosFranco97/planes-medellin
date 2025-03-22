@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import BotonAgenda from "./BotonAgenda";
+import BotonAgenda from "../common/BotonAgenda";
 import amigasFoto from '../assets/amigas-foto.webp';
 import fotoGato from '../assets/foto-gato.webp';
 import carroRojo from '../assets/carro-rojo.webp';
