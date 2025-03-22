@@ -24,8 +24,8 @@ const Encabezado = () => {
                 <img src={logoPlanesMedellin} className="w-20 h-20 rounded-full shadow-xl xl:w-30 xl:h-30" alt="logo-pphem" />
 
             </Link>
-            <div className="flex justify-center items-center gap-2 sm:gap-3">
-                <h2 className="flex justify-center h-full text-xl text-white font-black xl:text-6xl xl:mb-[22px]"> 
+            <div className="flex justify-center items-center gap-2">
+                <h2 className="flex justify-center h-full text-xl text-white font-black xl:text-4xl xl:mb-[22px]"> 
                     TOURS
                 </h2>
                 <BotonHamburguesa alternarMenu={alternarMenu} menuAbierto={menuAbierto}/>
