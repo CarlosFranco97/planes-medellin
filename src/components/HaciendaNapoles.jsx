@@ -1,16 +1,13 @@
 import React from "react";
 import SliderSecciones from "../shared/SliderSecciones";
-import rioLento from '../assets/rio-lento-napoles.webp';
-import tigreNapoles from '../assets/tigre-napoles.webp';
-import piscinaNapoles from '../assets/piscina-napoles.webp';
-import entradaHacienda from '../assets/entrada-hacienda.webp';
+
 const HaciendaNapoles = () => {
   const contenidoSlider = {
     images: [
-      rioLento,
-      tigreNapoles,
-      piscinaNapoles,
-      entradaHacienda
+      '/img/rio-lento-napoles.webp',
+      '/img/tigre-napoles.webp',
+      '/img/piscina-napoles.webp',
+      '/img/entrada-hacienda.webp'
     ],
     title: "HACIENDA NÁPOLES",
     sections: [

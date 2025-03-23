@@ -1,15 +1,15 @@
 import SliderSecciones from "../shared/SliderSecciones";
-import piedraPenol from '../assets/piedra-del-peñol.webp';
-import represaGuatape from '../assets/replica-penol.webp';
-import amigasFoto from '../assets/amigas-foto.webp';
+// import piedraPenol from '../assets/piedra-del-peñol.webp';
+// import represaGuatape from '../assets/replica-penol.webp';
+// import amigasFoto from '../assets/amigas-foto.webp';
 
 const TourGuatape = () => {
 
     const contenidoSlider = {
         images: [
-            piedraPenol,
-            represaGuatape,
-            amigasFoto,
+            '/img/piedra-del-peñol.webp',
+            '/img/replica-penol.webp',
+            '/img/bandera-colombia.webp',
         ],
         title: "GUATAPE",
         sections: [

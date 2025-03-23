@@ -3,9 +3,9 @@ import SliderSecciones from '../shared/SliderSecciones';
 const ComunaTrece = () => {
   const contenidoSlider = {
     images: [
-        '',
-        '',
-        '',
+        'sin-imagen.png',
+        'sin-imagen.png',
+        'sin-imagen.png',
       ],
       title: "COMUNA 13",
       sections: [

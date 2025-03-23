@@ -1,11 +1,6 @@
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import BotonAgenda from "../common/BotonAgenda";
-import amigasFoto from '../assets/amigas-foto.webp';
-import fotoGato from '../assets/foto-gato.webp';
-import carroRojo from '../assets/carro-rojo.webp';
-import banderaColombia from '../assets/bandera-colombia.webp'
-import replicaPenol from '../assets/replica-penol.webp';
 
 const cn = (...classes) => {
   return classes.filter(Boolean).join(' ');
@@ -14,11 +9,11 @@ const cn = (...classes) => {
 
 const SliderInicio = ({
   images = [
-    amigasFoto,
-    carroRojo,
-    fotoGato,
-    banderaColombia,
-    replicaPenol,
+    '/img/amigas-foto.webp',
+    '/img/carro-rojo.webp',
+    '/img/foto-gato.webp',
+    '/img/bandera-colombia.webp',
+    '/img/replica-penol.webp'
   ],
   autoPlay = true,
   autoPlayInterval = 5000,

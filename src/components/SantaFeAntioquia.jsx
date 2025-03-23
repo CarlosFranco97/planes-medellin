@@ -1,13 +1,12 @@
 import React from "react";
 import SliderSecciones from '../shared/SliderSecciones';
-import iglesiaSantaFe from '../assets/iglesia-santafe.webp';
-import parqueSantaFe from '../assets/parque-santafe.webp';
+
 
 const SantaFeAntioquia = () => {
   const contenidoSlider = {
     images: [
-      iglesiaSantaFe,
-      parqueSantaFe,
+      '/img/iglesia-santafe.webp',
+      '/img/parque-santafe.webp',
     ],
     title:  "SANTA FE DE ANTIOQUIA",
     sections: [
