@@ -1,12 +1,40 @@
-# React + Vite
+# 🌟 Planes para hacer en Medellín
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Planes para hacer en Medellín es una landing page diseñada para facilitar la reserva de tours en la ciudad de Medellín. Con una interfaz moderna y funcionalidades intuitivas, esta plataforma permite a los usuarios explorar y reservar experiencias turísticas de manera sencilla.
 
-Currently, two official plugins are available:
+[Visita la página aquí](https://planesparahacerenmedellin.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## ✨ Funcionalidades Principales
+
+- **Reserva de Tours:** Los usuarios pueden seleccionar y reservar tours disponibles en Medellín.
+- **Interfaz Responsiva:** Diseño adaptativo para una experiencia óptima en dispositivos móviles y escritorio.
+- **Galería Interactiva:** Implementación de SwiperJS para mostrar imágenes de los tours de forma dinámica.
+- **Formulario de Contacto:** Integración con EmailJS para enviar correos directamente desde la página.
+- **Navegación Suave:** Uso de `react-scroll` para una navegación fluida entre secciones.
+
+---
+
+## 🚀 Cómo Ejecutar El Proyecto Localmente
+
+1. Clona este repositorio:
+   
+   git clone https://github.com/CarlosFranco97/planes-medellin.git
+
+2. Instala los modulos de node:
+    
+    npm i o npm install
+
+3. Inicia el servidor en desarrollo
+
+    npm run dev
+
+
+
+
+
+
+
