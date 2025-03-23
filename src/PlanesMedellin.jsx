@@ -9,6 +9,7 @@ import TourGuatape from "./components/TourGuatape";
 import SliderInicio from "./components/SliderInicio";
 import PiedraLayout from "./layouts/PiedraLayout";
 import PieDePagina from "./components/PieDePagina";
+import FormularioContacto from "./components/FormularioContacto";
 
 const PlanesMedellin = () => {
     return (
@@ -17,12 +18,12 @@ const PlanesMedellin = () => {
             <Home />
             <SliderInicio />
             <ReservaAhora />
-            {/* <SliderSecciones /> */}
             <TourGuatape />
             <GraffitiTour />
             <HaciendaNapoles />
             <SantaFeAntioquia />
             <ComunaTrece />
+            <FormularioContacto />
             <PieDePagina />
         </PiedraLayout>
     )

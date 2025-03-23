@@ -65,12 +65,11 @@ const HaciendaNapoles = () => {
       className="bg-[url(../src/assets/hacienda-napoles.webp)] bg-no-repeat bg-center bg-cover w-full min-h-screen"
     >
       <div className="flex flex-col justify-between min-w-full min-h-screen">
-        <h2 className="text-5xl font-extrabold text-white m-5 md:text-7xl lg:text-8xl xl:text-[6rem] xl:m-15 2xl:text-[7rem]">
+        <h2 className="text-5xl py-6 font-extrabold text-white m-5 lg:text-7xl xl:text-8xl">
           HACIENDA NÁPOLES
         </h2>
-        {/* <SliderHaciendaNapoles /> */}
         <SliderSecciones contenidoSlider={contenidoSlider}/>
-        <h3 className="flex justify-center items-center bg-white text-[#0080B9] font-black text-[1.5rem] w-full p-5 lg:text-8xl xl:text-[4rem] 2xl:text-[5rem]">
+        <h3 className="flex justify-center items-center bg-white text-[#0080B9] font-black text-[1.5rem] w-full p-5 sm:text-4xl lg:text-6xl xl:text-7xl">
           OFERTA DESDE 249.900 COP
         </h3>
       </div>

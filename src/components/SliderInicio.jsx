@@ -91,9 +91,9 @@ const SliderInicio = ({
             </div>
           );
         })}
-        <h2 className="text-3xl w-full absolute top-0 p-8 text-[#0080B9] text-center z-50 font-black bg-white sm:text-5xl">
-          Nuestros tours son confiables y seguros
-        </h2>
+        <h1 className="text-2xl w-full absolute top-0 p-8 text-[#0080B9] text-center z-50 font-black bg-white sm:text-5xl">
+          Tours seguros y confiables en Medellín
+        </h1>
         <BotonAgenda />
       </div>
 

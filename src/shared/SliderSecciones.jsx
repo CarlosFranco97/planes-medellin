@@ -9,6 +9,7 @@ import {
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import BotonReservaTour from "../common/BotonReservaTour";
 
 const SliderSecciones = ({ contenidoSlider }) => {
     const infoOnLeft = false
@@ -111,12 +112,15 @@ const SliderSecciones = ({ contenidoSlider }) => {
                                             </li>
                                         ))}
                                     </ul>
+
                                 </div>
                             ))}
+                            <BotonReservaTour tour={contenidoSlider.title}/>
                         </div>
                     </div>
                 </div>
             </div>
+
         </section>
     );
 
@@ -156,7 +160,7 @@ const SliderSecciones = ({ contenidoSlider }) => {
                 <button
                     onClick={() => setIsExpanded(true)}
                     className={`
-            absolute bottom-4 left-1/2 -translate-x-1/2 z-10 
+            absolute bottom-8 left-1/2 -translate-x-1/2 z-10 
             bg-white/90 backdrop-blur-sm px-6 py-3 rounded-full shadow-lg 
             flex items-center gap-2 md:hidden 
             hover:bg-white transition-all duration-300
@@ -179,6 +183,7 @@ const SliderSecciones = ({ contenidoSlider }) => {
                         />
                     </svg>
                 </button>
+
             </div>
             {!infoOnLeft && <Content />}
         </div>

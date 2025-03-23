@@ -2,7 +2,7 @@ import BotonReserva from "../common/BotonReserva";
 
 const PieDePagina = () => {
     return (
-        <footer className="flex flex-col p-4 justify-center items-center w-full h-auto gap-10 bg-white">
+        <footer className="flex flex-col px-4 py-20 justify-center items-center w-full h-auto gap-10 bg-white">
             <div className="text-center flex flex-col justify-center items-center gap-2">
                 <h2 className="text-3xl font-extrabold lg:text-4xl">Siguenos en nuestras redes sociales</h2>
                 <div className="flex justify-center items-center gap-4">
