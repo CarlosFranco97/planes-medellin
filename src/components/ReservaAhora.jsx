@@ -1,5 +1,5 @@
 import BotonReserva from "../common/BotonReserva";
-import videoTour from '../assets/video-tour.mp4';
+import videoTour from '../assets/video/video-tour.mp4';
 
 const ReservaAhora = () => {
 

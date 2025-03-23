@@ -1,5 +1,5 @@
 import whatsappReserva from "../helpers/whatsappReserva";
-
+import iconoWhatsapp from '../assets/icon/whatsapp.svg'
 const BotonReserva = () => {
     return (
     <a 
@@ -11,7 +11,7 @@ const BotonReserva = () => {
     >
         <img 
             className="w-10 sm:w-12 sm:h-12 lg:w-20 lg:h-20"
-            src="/whatsapp.svg" 
+            src={iconoWhatsapp} 
             alt="whatsapp" 
 
         />

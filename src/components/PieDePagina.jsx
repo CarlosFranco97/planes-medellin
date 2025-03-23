@@ -1,5 +1,6 @@
 import BotonReserva from "../common/BotonReserva";
-
+import iconoInstagram from '../assets/icon/icono-instagram.svg'
+import iconoTikTok from '../assets/icon/icono-tiktok.svg'
 const PieDePagina = () => {
     return (
         <footer className="flex flex-col px-4 py-20 justify-center items-center w-full h-auto gap-10 bg-white">
@@ -7,10 +8,10 @@ const PieDePagina = () => {
                 <h2 className="text-3xl font-extrabold lg:text-4xl">Siguenos en nuestras redes sociales</h2>
                 <div className="flex justify-center items-center gap-4">
                     <a href="https://www.instagram.com/planesparahacerenmedellin?igsh=MWRzajVtMzBsNWk0" rel="noreferrer" target="_blank">
-                        <img src="/icono-instagram.svg" className="h-[55px] w-[55px] lg:h-[70px] lg:w-[70px]" alt="instagram" />
+                        <img src={iconoInstagram} className="h-[55px] w-[55px] lg:h-[70px] lg:w-[70px]" alt="instagram" />
                     </a>
                     <a href="https://www.tiktok.com/@planesenmedellin?_t=ZS-8uiru2ct0Cu&_r=1" rel="noreferrer" target="_blank">
-                        <img src="/icono-tiktok.svg" className="lg:h-[60px] lg:w-[60px]" alt="tiktok" />
+                        <img src={iconoTikTok} className="lg:h-[60px] lg:w-[60px]" alt="tiktok" />
                     </a>
                 </div>
                 <h2 className="text-3xl font-extrabold lg:text-4xl">Linea de <span className="text-[#0076AB]">
