@@ -1,7 +1,5 @@
 import SliderSecciones from "../shared/SliderSecciones";
-// import piedraPenol from '../assets/piedra-del-peñol.webp';
-// import represaGuatape from '../assets/replica-penol.webp';
-// import amigasFoto from '../assets/amigas-foto.webp';
+
 
 const TourGuatape = () => {
 

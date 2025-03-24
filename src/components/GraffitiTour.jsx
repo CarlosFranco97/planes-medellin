@@ -4,22 +4,22 @@ import SliderSecciones from "../shared/SliderSecciones";
 const GraffitiTour = () => {
   const contenidoSlider = {
     images: [
-        "/img/replica-penol.PNG",
-        "/img/carro-rojo.PNG",
-        "/img/amigas-foto.PNG",
-      ],
-      title: "GRAFFITI TOUR",
-      sections: [
-        {
-          title: "INLCUYE",
-          items: [
-            "Guía experto en arte urbano",
-            "Recorrido por los mejores murales",
-            "Historia del arte callejero",
-            "Paseo en metro y metro cable",
-          ],
-        },
-      ],
+      '/img/piedra-del-peñol.webp',
+      '/img/replica-penol.webp',
+      '/img/bandera-colombia.webp',
+    ],
+    title: "GRAFFITI TOUR",
+    sections: [
+      {
+        title: "INLCUYE",
+        items: [
+          "Guía experto en arte urbano",
+          "Recorrido por los mejores murales",
+          "Historia del arte callejero",
+          "Paseo en metro y metro cable",
+        ],
+      },
+    ],
   }
   return (
     <div
@@ -32,12 +32,12 @@ const GraffitiTour = () => {
         </h2>
 
         <SliderSecciones contenidoSlider={contenidoSlider} />
-        
+
         <h3 className="flex justify-center items-center bg-white text-[#0080B9] font-black text-[2rem] w-full p-5 sm:text-4xl lg:text-6xl xl:text-7xl">
           OFERTA 69.900 COP
         </h3>
       </div>
-     
+
     </div>
   );
 };

@@ -3,37 +3,37 @@ import SliderSecciones from '../shared/SliderSecciones';
 const ComunaTrece = () => {
   const contenidoSlider = {
     images: [
-        'sin-imagen.png',
-        'sin-imagen.png',
-        'sin-imagen.png',
-      ],
-      title: "COMUNA 13",
-      sections: [
-        {
-          title: "INCLUYE",
-          items: [
-            "Parques del Rio",
-            "Pueblito Paisa",
-            "Plaza Botero",
-            "Parque de los pies descalzos",
-            "Metro y Metro Cable",
-            "Garffiti Comuna 13",
-            "Museo del café",
-            "Escaleras Electricas",
-            "Show de Baile",
-          ],
-        },
-        {
-          title: "RECORRIDO",
-          items: [
-            "Guia acompañante",
-            "Transporte ida y regreso",
-            "Almuerzo",
-            "Seguro de viaje",
-            "Parque Biblioteca",
-          ],
-        },
-      ],
+      '/img/piedra-del-peñol.webp',
+      '/img/replica-penol.webp',
+      '/img/bandera-colombia.webp',
+    ],
+    title: "COMUNA 13",
+    sections: [
+      {
+        title: "INCLUYE",
+        items: [
+          "Parques del Rio",
+          "Pueblito Paisa",
+          "Plaza Botero",
+          "Parque de los pies descalzos",
+          "Metro y Metro Cable",
+          "Garffiti Comuna 13",
+          "Museo del café",
+          "Escaleras Electricas",
+          "Show de Baile",
+        ],
+      },
+      {
+        title: "RECORRIDO",
+        items: [
+          "Guia acompañante",
+          "Transporte ida y regreso",
+          "Almuerzo",
+          "Seguro de viaje",
+          "Parque Biblioteca",
+        ],
+      },
+    ],
   }
   return (
     <div
@@ -44,12 +44,12 @@ const ComunaTrece = () => {
         <h2 className="text-5xl py-6 font-extrabold text-white m-5 md:text-7xl lg:text-7xl xl:text-8xl">
           CITY TOUR & COMUNA 13
         </h2>
-        <SliderSecciones contenidoSlider={contenidoSlider}/>
+        <SliderSecciones contenidoSlider={contenidoSlider} />
         <h3 className="flex justify-center items-center bg-white text-[#0080B9] font-black text-[1.5rem] w-full p-5 sm:text-4xl lg:text-6xl xl:text-7xl">
           OFERTA DESDE 119.900 COP
         </h3>
       </div>
-     
+
     </div>
   );
 };
