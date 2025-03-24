@@ -1,4 +1,4 @@
-import Encabezado from "./layouts/encabezado/Encabezado";
+import Encabezado from './components/layouts/encabezado/Encabezado';
 import ComunaTrece from "./components/ComunaTrece";
 import GraffitiTour from "./components/GraffitiTour";
 import HaciendaNapoles from "./components/HaciendaNapoles";
@@ -7,8 +7,8 @@ import ReservaAhora from "./components/ReservaAhora";
 import SantaFeAntioquia from "./components/SantaFeAntioquia";
 import TourGuatape from "./components/TourGuatape";
 import SliderInicio from "./components/SliderInicio";
-import PiedraLayout from "./layouts/PiedraLayout";
-import PieDePagina from "./components/PieDePagina";
+import PiedraLayout from './components/layouts/PiedraLayout';
+import PieDePagina from './components/layouts/PieDePagina';
 import FormularioContacto from "./components/FormularioContacto";
 
 const PlanesMedellin = () => {

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import BotonAgenda from "../common/BotonAgenda";
+import BotonAgenda from "./common/BotonAgenda";
 
 const cn = (...classes) => {
   return classes.filter(Boolean).join(' ');

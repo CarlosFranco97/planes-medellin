@@ -1,4 +1,4 @@
-import whatsappReserva from "../helpers/whatsappReserva";
+import whatsappReserva from '../../helpers/whatsappReserva';
 
 const BotonAgenda = () => {
     

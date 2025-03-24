@@ -1,10 +1,10 @@
-import BotonReserva from "../common/BotonReserva";
-import iconoInstagram from '../assets/icon/icono-instagram.svg'
-import iconoTikTok from '../assets/icon/icono-tiktok.svg'
+import BotonReserva from '../common/BotonReserva';
+import iconoInstagram from '../../assets/icon/icono-instagram.svg'
+import iconoTikTok from '../../assets/icon/icono-tiktok.svg'
 const PieDePagina = () => {
     return (
-        <footer className="flex flex-col px-4 py-20 justify-center items-center w-full h-auto gap-10 bg-white">
-            <div className="text-center flex flex-col justify-center items-center gap-2">
+        <footer className="flex flex-col px-4 py-2 justify-center items-center w-full h-auto gap-10 bg-white">
+            <div className="text-center mt-20 flex flex-col justify-center items-center gap-2">
                 <h2 className="text-3xl font-extrabold lg:text-4xl">Siguenos en nuestras redes sociales</h2>
                 <div className="flex justify-center items-center gap-4">
                     <a href="https://www.instagram.com/planesparahacerenmedellin?igsh=MWRzajVtMzBsNWk0" rel="noreferrer" target="_blank">

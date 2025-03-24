@@ -5,7 +5,7 @@ import {
     buttonStyle,
     paginationBulletStyle,
     paginationBulletActiveStyle,
-} from "../helpers/SwiperConfig";
+} from '../../helpers/SwiperConfig';
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";

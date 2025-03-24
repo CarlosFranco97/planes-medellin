@@ -1,4 +1,4 @@
-import SliderSecciones from "../shared/SliderSecciones";
+import SliderSecciones from './shared/SliderSecciones';
 
 
 const TourGuatape = () => {

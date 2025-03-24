@@ -1,5 +1,5 @@
-import whatsappReserva from "../helpers/whatsappReserva";
-import iconoWhatsapp from '../assets/icon/whatsapp.svg'
+import whatsappReserva from '../../helpers/whatsappReserva';
+import iconoWhatsapp from '../../assets/icon/whatsapp.svg'
 const BotonReserva = () => {
     return (
     <a 
