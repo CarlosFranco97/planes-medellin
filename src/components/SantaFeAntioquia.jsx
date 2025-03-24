@@ -27,7 +27,7 @@ const SantaFeAntioquia = () => {
   return (
     <div
       id="santafe-antioquia"
-      className="bg-[url(../src/assets/puente-santafe.webp)] bg-no-repeat bg-cover bg-center min-h-screen w-full"
+      className="bg-[url(/img/puente-santafe.webp)] bg-no-repeat bg-cover bg-center min-h-screen w-full"
     >
       <div className="flex flex-col justify-between min-w-full min-h-screen">
         <h2 className="text-5xl py-6 font-extrabold text-white m-5 lg:text-7xl xl:text-8xl">
