@@ -25,7 +25,7 @@ const Encabezado = () => {
 
             </Link>
             <div className="flex justify-center items-center h-30 gap-2">
-                <h2 className="flex justify-center items-center h-full text-xl text-white font-black xl:text-4xl xl:mt-4"> 
+                <h2 className="flex justify-center items-center h-full text-xl text-white font-black xl:text-4xl"> 
                     TOURS
                 </h2>
                 <BotonHamburguesa alternarMenu={alternarMenu} menuAbierto={menuAbierto}/>
