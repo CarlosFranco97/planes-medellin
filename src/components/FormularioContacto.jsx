@@ -33,7 +33,7 @@ const FormularioContacto = () => {
                             value={formState.nombre}
                             onChange={handleChange}
                             required
-                            type="text" placeholder="ej. Santiago Álvarez" className='bg-gray-300/30 rounded-2xl py-2 px-4 w-[250px] placeholder:text-[#6B7280]/50 focus:outline-[#0080B9]/30 md:w-[320px]' />
+                            type="text" placeholder="ej. Santiago Álvarez" className='bg-gray-300/30 text-xl rounded-2xl py-3 px-4 w-[250px] placeholder:text-[#6B7280]/50 focus:outline-[#0080B9]/30 md:w-[320px]' />
                     </div>
                     <div className='flex flex-col gap-2'>
                         <label htmlFor="celular" className='ml-5 '>
@@ -45,7 +45,8 @@ const FormularioContacto = () => {
                             value={formState.celular}
                             onChange={handleChange}
                             required
-                            type="tel" className='bg-gray-300/30 rounded-2xl py-2 px-4 w-[250px] placeholder:text-[#6B7280]/50 focus:outline-[#0080B9]/30 md:w-[320px]' placeholder='322 4040 5050' />
+                            type="tel" 
+                            className='bg-gray-300/30 text-xl rounded-2xl py-3 px-4 w-[250px] placeholder:text-[#6B7280]/50 focus:outline-[#0080B9]/30 md:w-[320px]' placeholder='322 4040 5050' />
                     </div>
 
                     <div className='flex flex-col gap-2'>
@@ -58,7 +59,8 @@ const FormularioContacto = () => {
                             value={formState.email}
                             onChange={handleChange}
                             required
-                            type="email" className='bg-gray-300/30 rounded-2xl py-2 px-4 w-[250px] placeholder:text-[#6B7280]/50 focus:outline-[#0080B9]/30 md:w-[320px]' placeholder='ejemplo@gmail.com' />
+                            type="email" 
+                            className='bg-gray-300/30 rounded-2xl text-xl py-3 px-4 w-[250px] placeholder:text-[#6B7280]/50 focus:outline-[#0080B9]/30 md:w-[320px]' placeholder='ejemplo@gmail.com' />
                     </div>
 
                     <div className='flex flex-col gap-2'>
@@ -69,14 +71,14 @@ const FormularioContacto = () => {
                             options={opcionesFormularioContacto}
                             styles={estiloPersonalizado}
                             placeholder="Selecciona un tour"
-                            className="w-[250px] md:w-[320px]"
+                            className="w-[250px] md:w-[320px] text-xl"
                             onChange={(selectedOption) => handleSelectChange(selectedOption, 'tour')}
                         />
                         {!formState.tour && <p className="text-red-500 text-center italic text-[0.9rem] lg:text-xl">Este campo es obligatorio.</p>}
                     </div>
                     <button
                         type="submit"
-                        className='bg-[#0080B9] px-4 py-2 rounded-2xl text-white shadow-lg cursor-pointer mt-5 md:text-2xl'>
+                        className='bg-[#0080B9] px-5 py-2 rounded-2xl text-white shadow-lg cursor-pointer mt-5 md:text-2xl lg:px-8 py-4'>
                         Enviar
                     </button>
                 </form>

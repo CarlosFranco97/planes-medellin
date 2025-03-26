@@ -3,7 +3,7 @@ export const estiloPersonalizado = {
         ...base,
         backgroundColor: "rgba(209, 213, 219, 0.3)",  
         borderRadius: "20px", 
-        padding: "0 16px", 
+        padding: "5px 16px", 
         borderColor: "transparent", 
         boxShadow: "none", 
         "&:hover": {
