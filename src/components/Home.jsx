@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <main className="w-full h-auto flex justify-center items-center lg:h-[140vh] xl:h-[150vh] xl:justify-start 2xl:h-[130vh]">
 
-            <div className="flex flex-col justify-start items-center gap-20 p-4 max-w-[1600px] h-[65vh] sm:h-[100vh] md:min-h-screen xl:h-full xl:justify-start 2xl:gap-50 2xl:h-full">
+            <div className="flex flex-col justify-start items-center gap-20 p-4 h-[65vh] sm:h-[100vh] md:min-h-screen xl:h-full xl:justify-start 2xl:gap-50 2xl:h-full">
 
                 <h2 
                 style={{"textShadow": "2px 2px 5px rgba(0, 0, 0, 0.9)"}}
