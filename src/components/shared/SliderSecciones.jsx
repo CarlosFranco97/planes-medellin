@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
     swiperConfig,
-    buttonStyle,
-    paginationBulletStyle,
-    paginationBulletActiveStyle,
+    // buttonStyle,
+    // paginationBulletStyle,
+    // paginationBulletActiveStyle,
 } from '../../helpers/SwiperConfig';
 import "swiper/css";
 import "swiper/css/navigation";
@@ -20,8 +20,6 @@ const SliderSecciones = ({ contenidoSlider }) => {
             setLoadedImages((prevLoadedImages) => [...prevLoadedImages, index]);
         }
     };
-
-
 
     const handleImageError = (index) => {
         console.error(`Error loading image at index ${index}`);
@@ -115,7 +113,7 @@ const SliderSecciones = ({ contenidoSlider }) => {
 
                                 </div>
                             ))}
-                            <BotonReservaTour tour={contenidoSlider.title}/>
+                            <BotonReservaTour tour={contenidoSlider.title} />
                         </div>
                     </div>
                 </div>
@@ -131,14 +129,6 @@ const SliderSecciones = ({ contenidoSlider }) => {
                 <Swiper
                     {...swiperConfig}
                     className="mySwiper w-full h-full"
-                    style={{
-                        "--swiper-navigation-color": buttonStyle.color,
-                        "--swiper-pagination-bullet-color":
-                            paginationBulletStyle.background,
-                        "--swiper-pagination-bullet-opacity": paginationBulletStyle.opacity,
-                        "--swiper-pagination-bullet-active-color":
-                            paginationBulletActiveStyle.background,
-                    }}
                 >
                     {contenidoSlider.images.map((image, index) => (
                         <SwiperSlide key={index}>
