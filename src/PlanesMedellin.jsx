@@ -10,8 +10,16 @@ import SliderInicio from "./components/SliderInicio";
 import PiedraLayout from './components/layouts/PiedraLayout';
 import PieDePagina from './components/layouts/PieDePagina';
 import FormularioContacto from "./components/FormularioContacto";
-
+import { useEffect } from 'react';
+import ReactGA from 'react-ga4';
 const PlanesMedellin = () => {
+    
+    useEffect(() => {
+        ReactGA.initialize('G-LLH38EKM41'); 
+        ReactGA.send({hitType: 'pageview', page: window.location.pathname});
+    }, []);
+    
+
     return (
         <PiedraLayout>
             <Encabezado />
