@@ -1,8 +1,8 @@
 import { useState } from "react";
+import { Link } from "react-scroll";
 import BotonHamburguesa from "./BotonHamburguesa";
 import MenuLateral from "./MenuLateral";
 import logoPlanesMedellin from '../../../assets/pphem.png';
-import { Link } from "react-scroll";
 
 const Encabezado = () => {
 

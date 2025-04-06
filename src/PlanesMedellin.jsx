@@ -12,6 +12,7 @@ import PieDePagina from './components/layouts/PieDePagina';
 import FormularioContacto from "./components/FormularioContacto";
 import { useEffect } from 'react';
 import ReactGA from 'react-ga4';
+
 const PlanesMedellin = () => {
     
     useEffect(() => {
@@ -22,17 +23,17 @@ const PlanesMedellin = () => {
 
     return (
         <PiedraLayout>  
-            <Encabezado />
-            <Home />
-            <SliderInicio />
-            <ReservaAhora />
-            <TourGuatape />
-            <GraffitiTour />
-            <HaciendaNapoles />
-            <SantaFeAntioquia />
-            <ComunaTrece />
-            <FormularioContacto />
-            <PieDePagina />
+                <Encabezado />
+                <Home />
+                <SliderInicio />
+                <ReservaAhora />
+                <TourGuatape />
+                <GraffitiTour />
+                <HaciendaNapoles />
+                <SantaFeAntioquia />
+                <ComunaTrece />
+                <FormularioContacto />
+                <PieDePagina />
         </PiedraLayout>
     )
 }
