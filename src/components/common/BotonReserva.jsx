@@ -1,5 +1,6 @@
+import ReactGA from 'react-ga4';
 import whatsappReserva from '../../helpers/whatsappReserva';
-import iconoWhatsapp from '../../assets/icon/whatsapp.svg'
+import iconoWhatsapp from '../../assets/icon/whatsapp.svg';
 const BotonReserva = () => {
     return (
     <a 
@@ -9,12 +10,11 @@ const BotonReserva = () => {
         className="
         flex justify-center items-center gap-3 bg-[#29A71A] text-white text-center text-[1.3rem] px-9 py-4 rounded-full font-black shadow-2xl cursor-pointer max-w-[600px] sm:text-3xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl"
         onClick={() => {
-            if(typeof window.gtag === 'function') {
-                window.gtag('event', 'click_reserva_whatsapp', {
-                    event_category: 'Reservas',
-                    value: 1
-                })
-            }
+            ReactGA.event({
+                category: 'Reservas', 
+                action: 'click_reserva_whatsapp',
+                value: 1
+            })
         }}
     >
         <img 

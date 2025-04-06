@@ -21,7 +21,7 @@ const PlanesMedellin = () => {
     
 
     return (
-        <PiedraLayout>
+        <PiedraLayout>  
             <Encabezado />
             <Home />
             <SliderInicio />
