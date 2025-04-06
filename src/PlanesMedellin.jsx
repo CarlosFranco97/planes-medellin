@@ -15,7 +15,7 @@ import ReactGA from 'react-ga4';
 const PlanesMedellin = () => {
     
     useEffect(() => {
-        ReactGA.initialize('G-LLH38EKM41'); 
+        ReactGA.initialize('G-LLH38EKM41', {debug: true}); 
         ReactGA.send({hitType: 'pageview', page: window.location.pathname});
     }, []);
     
