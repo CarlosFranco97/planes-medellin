@@ -8,6 +8,14 @@ const BotonReserva = () => {
         rel="noopener noreferrer"
         className="
         flex justify-center items-center gap-3 bg-[#29A71A] text-white text-center text-[1.3rem] px-9 py-4 rounded-full font-black shadow-2xl cursor-pointer max-w-[600px] sm:text-3xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl"
+        onClick={() => {
+            if(typeof window.gtag === 'function') {
+                window.gtag('event', 'click_reserva_whatsapp', {
+                    event_category: 'Reservas',
+                    value: 1
+                })
+            }
+        }}
     >
         <img 
             className="w-10 sm:w-12 sm:h-12 lg:w-20 lg:h-20"
